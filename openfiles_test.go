@@ -1,13 +1,17 @@
 package openfiles_test
 
 import (
-	"fmt"
 	"testing"
 
 	"moul.io/openfiles"
 )
 
-func TestGet(t *testing.T) {
-	nofile, err := openfiles.Get()
-	fmt.Println(nofile, err)
+func TestCount(t *testing.T) {
+	nofile, err := openfiles.Count()
+	if err != nil {
+		t.Fatal("err", err)
+	}
+	if nofile < 1 {
+		t.Errorf("nofile < 1 (%d)", nofile)
+	}
 }
