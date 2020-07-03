@@ -1,19 +1,19 @@
-# golang-repo-template
+# openfiles
 
-:smile: golang-repo-template
+:smile: openfiles
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/golang-repo-template)
-[![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/golang-repo-template/blob/master/COPYRIGHT)
-[![GitHub release](https://img.shields.io/github/release/moul/golang-repo-template.svg)](https://github.com/moul/golang-repo-template/releases)
-[![Docker Metrics](https://images.microbadger.com/badges/image/moul/golang-repo-template.svg)](https://microbadger.com/images/moul/golang-repo-template)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/openfiles)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/openfiles/blob/master/COPYRIGHT)
+[![GitHub release](https://img.shields.io/github/release/moul/openfiles.svg)](https://github.com/moul/openfiles/releases)
+[![Docker Metrics](https://images.microbadger.com/badges/image/moul/openfiles.svg)](https://microbadger.com/images/moul/openfiles)
 [![Made by Manfred Touron](https://img.shields.io/badge/made%20by-Manfred%20Touron-blue.svg?style=flat)](https://manfred.life/)
 
-[![CI](https://github.com/moul/golang-repo-template/workflows/CI/badge.svg)](https://github.com/moul/golang-repo-template/actions?query=workflow%3ACI)
-[![Release](https://github.com/moul/golang-repo-template/workflows/Release/badge.svg)](https://github.com/moul/golang-repo-template/actions?query=workflow%3ARelease)
-[![GolangCI](https://golangci.com/badges/github.com/moul/golang-repo-template.svg)](https://golangci.com/r/github.com/moul/golang-repo-template)
-[![codecov](https://codecov.io/gh/moul/golang-repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/golang-repo-template)
-[![Go Report Card](https://goreportcard.com/badge/moul.io/golang-repo-template)](https://goreportcard.com/report/moul.io/golang-repo-template)
-[![CodeFactor](https://www.codefactor.io/repository/github/moul/golang-repo-template/badge)](https://www.codefactor.io/repository/github/moul/golang-repo-template)
+[![CI](https://github.com/moul/openfiles/workflows/CI/badge.svg)](https://github.com/moul/openfiles/actions?query=workflow%3ACI)
+[![Release](https://github.com/moul/openfiles/workflows/Release/badge.svg)](https://github.com/moul/openfiles/actions?query=workflow%3ARelease)
+[![GolangCI](https://golangci.com/badges/github.com/moul/openfiles.svg)](https://golangci.com/r/github.com/moul/openfiles)
+[![codecov](https://codecov.io/gh/moul/openfiles/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/openfiles)
+[![Go Report Card](https://goreportcard.com/badge/moul.io/openfiles)](https://goreportcard.com/report/moul.io/openfiles)
+[![CodeFactor](https://www.codefactor.io/repository/github/moul/openfiles/badge)](https://www.codefactor.io/repository/github/moul/openfiles)
 
 
 ## Usage
@@ -25,12 +25,12 @@ TODO
 ### Using go
 
 ```console
-$ go get -u moul.io/golang-repo-template
+$ go get -u moul.io/openfiles
 ```
 
 ### Releases
 
-See https://github.com/moul/golang-repo-template/releases
+See https://github.com/moul/openfiles/releases
 
 ## Contributing
 
@@ -53,7 +53,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://manfred.life"><img src="https://avatars1.githubusercontent.com/u/94029?v=4" width="100px;" alt=""/><br /><sub><b>Manfred Touron</b></sub></a><br /><a href="#maintenance-moul" title="Maintenance">🚧</a> <a href="https://github.com/moul/golang-repo-template/commits?author=moul" title="Documentation">📖</a> <a href="https://github.com/moul/golang-repo-template/commits?author=moul" title="Tests">⚠️</a> <a href="https://github.com/moul/golang-repo-template/commits?author=moul" title="Code">💻</a></td>
+    <td align="center"><a href="http://manfred.life"><img src="https://avatars1.githubusercontent.com/u/94029?v=4" width="100px;" alt=""/><br /><sub><b>Manfred Touron</b></sub></a><br /><a href="#maintenance-moul" title="Maintenance">🚧</a> <a href="https://github.com/moul/openfiles/commits?author=moul" title="Documentation">📖</a> <a href="https://github.com/moul/openfiles/commits?author=moul" title="Tests">⚠️</a> <a href="https://github.com/moul/openfiles/commits?author=moul" title="Code">💻</a></td>
     <td align="center"><a href="https://manfred.life/moul-bot"><img src="https://avatars1.githubusercontent.com/u/41326314?v=4" width="100px;" alt=""/><br /><sub><b>moul-bot</b></sub></a><br /><a href="#maintenance-moul-bot" title="Maintenance">🚧</a></td>
   </tr>
 </table>
@@ -66,7 +66,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ### Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/moul/golang-repo-template.svg)](https://starchart.cc/moul/golang-repo-template)
+[![Stargazers over time](https://starchart.cc/moul/openfiles.svg)](https://starchart.cc/moul/openfiles)
 
 ## License
 
