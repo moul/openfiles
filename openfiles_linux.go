@@ -2,10 +2,15 @@
 
 package openfiles
 
-import "path/filepath"
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+)
 
 func Count() (int, error) {
-	m, err := filepath.Glob("/proc/*/fd")
+	pid := os.Getpid()
+	m, err := filepath.Glob(fmt.Sprintf("/proc/%d/fd/*", pid))
 	if err != nil {
 		return -1, err
 	}

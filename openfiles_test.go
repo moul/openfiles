@@ -17,4 +17,5 @@ func TestCount(t *testing.T) {
 	if nofile < 1 {
 		t.Errorf("nofile < 1 (%d)", nofile)
 	}
+	t.Logf("nofile: %d", nofile)
 }
