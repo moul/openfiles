@@ -77,8 +77,6 @@ jobs:
           key: ${{ runner.os }}-go-${{ matrix.golang }}-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-${{ matrix.golang }}-
-      - name: Compile the project
-        run: make go.install
       - name: Run tests on Unix-like operating systems
         run: make unittest
       - name: Check go.mod and go.sum
@@ -120,8 +118,6 @@ jobs:
           key: ${{ runner.os }}-go-${{ matrix.golang }}-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-${{ matrix.golang }}-
-      - name: Compile the project
-        run: make go.install CI=true
       - name: Check go.mod and go.sum
         run: |
           go mod tidy -v
