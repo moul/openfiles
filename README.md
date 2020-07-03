@@ -18,7 +18,15 @@
 
 ## Usage
 
-TODO
+```go
+import "moul.io/openfiles"
+
+count, err := openfiles.Count()
+fmt.Println(count) // 42
+
+emfile := openfiles.IsTooManyError(err)
+fmt.Println(emfile) // true
+```
 
 ## Install
 
