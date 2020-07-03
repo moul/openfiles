@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 )
 
-func Count() (int, error) {
+func Count() (int64, error) {
 	pid := os.Getpid()
 	m, err := filepath.Glob(fmt.Sprintf("/proc/%d/fd/*", pid))
 	if err != nil {
 		return -1, err
 	}
-	return len(m), nil
+	return int64(len(m)), nil
 }

@@ -1,7 +1,7 @@
-// +build !linux
+// +build !linux,!darwin
 
 package openfiles
 
-func Count() (int, error) {
+func Count() (int64, error) {
 	return -1, ErrNotSupported
 }
