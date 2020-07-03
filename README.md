@@ -8,7 +8,7 @@
 [![Docker Metrics](https://images.microbadger.com/badges/image/moul/openfiles.svg)](https://microbadger.com/images/moul/openfiles)
 [![Made by Manfred Touron](https://img.shields.io/badge/made%20by-Manfred%20Touron-blue.svg?style=flat)](https://manfred.life/)
 
-[![CI](https://github.com/moul/openfiles/workflows/CI/badge.svg)](https://github.com/moul/openfiles/actions?query=workflow%3ACI)
+[![Go](https://github.com/moul/openfiles/workflows/Go/badge.svg)](https://github.com/moul/openfiles/actions?query=workflow%3AGo)
 [![Release](https://github.com/moul/openfiles/workflows/Release/badge.svg)](https://github.com/moul/openfiles/actions?query=workflow%3ARelease)
 [![GolangCI](https://golangci.com/badges/github.com/moul/openfiles.svg)](https://golangci.com/r/github.com/moul/openfiles)
 [![codecov](https://codecov.io/gh/moul/openfiles/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/openfiles)
