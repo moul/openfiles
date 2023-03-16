@@ -49,7 +49,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v4
         with:
           go-version: ${{ matrix.golang }}
       - name: Run tests on Windows
@@ -68,7 +68,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v4
         with:
           go-version: ${{ matrix.golang }}
       - uses: actions/cache@v3.0.4
@@ -109,7 +109,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v4
         with:
           go-version: ${{ matrix.golang }}
       - uses: actions/cache@v3.0.4
